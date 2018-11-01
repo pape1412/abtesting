@@ -6,4 +6,4 @@ dist/
 __pycache__/
 
 ## Misc
-*.DS_Store
+**.DS_Store
