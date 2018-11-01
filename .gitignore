@@ -1,0 +1,9 @@
+# Git ignore file
+
+## Python
+dist/
+*.egg-info/
+__pycache__/
+
+## Misc
+*.DS_Store
