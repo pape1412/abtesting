@@ -83,7 +83,7 @@ class ZTest(ABTest.TestResults):
         """
         self.__z = self.__calculate_zscore()
         
-        return ABTest.SpecialFunctions(-self.__z).cdf("abram")
+        return 2 * (1 - ABTest.SpecialFunctions(self.__z).cdf("abram"))
 
     def __calculate_confidence_lwr(self):
         """ Calculation of lower bound of 95% confidence interval
