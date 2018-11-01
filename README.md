@@ -8,7 +8,9 @@ As I work a lot with A/B tests which involve conversion events, I thought a simp
 
 ## Installation
 The package installation can easily be done from the command line with
-```$ pip install abtesting```
+```
+$ pip install abtesting
+```
 The package doesn't depend on any but standard Python libraries such as ```math```.
 
 ## Files
@@ -22,7 +24,7 @@ Import the package as usual with
 from abtesting import ABTest, ZTest
 ```
 Let's come up with some fake data for our test and control groups. We need to parameters, the size of our group as well as the number of conversion events that were observed during the testing period. Both values can be used to estimate the sample mean / proporton.
-```
+```python
 # Size
 na = 351676
 nb = 352899
@@ -32,12 +34,12 @@ pa = 1301 / na
 pb = 1203 / nb
 ```
 We can then instantiate both groups as TestGroup objects.
-```
+```python
 group_a = ABTest.TestGroup(na, pa)
 group_b = ABTest.TestGroup(nb, pb)
 ```
 Finally, we compare the two sample means by using the test of our choice. In this case, we choose the Z test.
-```
+```python
 ztest = ZTest(group_a, group_b, pooled=True)
 ztest
 ```
