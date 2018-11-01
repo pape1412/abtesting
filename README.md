@@ -20,7 +20,7 @@ The following files are inluded in this package:
 
 ## Usage
 Import the package as usual with
-```
+```python
 from abtesting import ABTest, ZTest
 ```
 Let's come up with some fake data for our test and control groups. We need to parameters, the size of our group as well as the number of conversion events that were observed during the testing period. Both values can be used to estimate the sample mean / proporton.
