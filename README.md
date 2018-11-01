@@ -52,7 +52,7 @@ Sample means A = 0.0037, B = 0.0034
 Sample difference = 0.0003
 95% confidence interval = (0.0000, 0.0006)
 Z = 2.0489
-p = 0.0202
+p = 0.0405
 df = 1
 ```
 
