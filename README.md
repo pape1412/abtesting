@@ -57,4 +57,4 @@ df = 1
 ```
 
 ## Acknowledgements
-Large parts of the core functionalities of this package would not have been there without sources like [Wikipedia](https://www.wikipedia.org) or [Stackoverflow](https://stackoverflow.com) and I've tried to include some sources within the code as possible.
+Large parts of the core functionalities of this package would not have been there without sources like [Wikipedia](https://www.wikipedia.org) or [Stackoverflow](https://stackoverflow.com) and I've tried to include some of the sources within the code as possible.
