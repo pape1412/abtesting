@@ -4,6 +4,8 @@
 dist/
 *.egg-info/
 __pycache__/
+*.ipynb_checkpoints/
+abtesting_testfile.ipynb
 
 ## Misc
 **.DS_Store
